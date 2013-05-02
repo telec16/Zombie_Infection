@@ -1,0 +1,38 @@
+name: Zombie_infection
+main: fr.telec16.ZIF.Zombie_infection
+author: telec16
+version: 3.0
+commands:
+  ZiJoin:
+    description: Commande pour rentrer dans le jeu
+    usage: /<command>
+  ZiLeave:
+    description: Commande pour quitter le jeu
+    usage: /<command>
+  ZiLaunch:
+    description: Commande pour lancer le jeu (only Op)
+    usage: /<command>
+  ZiStop:
+    description: Commande pour arreter le jeu (only Op)
+    usage: /<command>
+  ZiEnableDrop:
+    description: Commande pour autoriser le drop (only Op)
+    usage: /<command> <True/False>
+  ZiEnableTping:
+    description: Commande pour autoriser le tp (only Op)
+    usage: /<command> <True/False>
+  ZiEnableTpingOnDeath:
+    description: Commande pour autoriser le tp + leave des morts (only Op)
+    usage: /<command> <True/False>
+  ZiSetDrop:
+    description: Commande pour set le drop (only Op)
+    usage: /<command> <Id> <Nb> [Damage]
+  ZiSetSurvivorTp:
+    description: Commande pour set le tp des survivors (only Op)
+    usage: /<command>
+  ZiSetZombieTp:
+    description: Commande pour set le tp des zombie (only Op)
+    usage: /<command>
+  ZiSetDeathTp:
+    description: Commande pour set le tp des morts (only Op)
+    usage: /<command>
